@@ -52,8 +52,6 @@ while True:
     if(ch==1):
         cid=int(input("Enter Cid = "))
         cname=input("Enter Cname = ")
-        '''model=input("Enter model = ")
-        year=input("Enter year = " )'''
         c.getDetails(cid,cname)
         
     elif(ch==2):
