@@ -1979,7 +1979,7 @@ CREATE A DEMO DATABSE
   database vendor mysql or mysql8
 
 ->Properties in jdbc connection pools
-URL: jdbc:mysql//3306/demo
+URL: jdbc:mysql//3306/demo?characterEncoding=UTF-8
 ServerName : localhost
 password : root
 user : root
